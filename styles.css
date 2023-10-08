@@ -1,0 +1,38 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  padding-inline: 5rem;
+  background-color: rgb(38, 90, 172);
+  color: rgb(211, 111, 111);
+}
+
+h2 {
+  text-align: justify;
+}
+h1 {
+  font-size: 4rem;
+  color: rgb(231, 70, 21);
+}
+img {
+  width: 4rem;
+  border-radius: 1rem;
+  transform: scale(90%);
+  filter: brightness(60%);
+  transition: all 200ms;
+}
+img:hover {
+  filter: brightness(100%);
+  transform: scale(100%);
+  cursor: pointer;
+}
+.hover {
+  color: antiquewhite;
+  text-decoration: none;
+  transition: all 200ms;
+}
+.hover:hover {
+  color: red;
+  font-size: 2rem;
+}
+ul {
+  list-style-type: none;
+}
