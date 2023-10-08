@@ -4,49 +4,124 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Olá Mundo!</title>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        padding-inline: 5rem;
+        background-color: rgb(38, 90, 172);
+        color: rgb(211, 111, 111);
+      }
+
+      h2 {
+        text-align: justify;
+      }
+      h1 {
+        font-size: 4rem;
+        color: rgb(231, 70, 21);
+      }
+      img {
+        width: 4rem;
+        border-radius: 1rem;
+        transform: scale(90%);
+        filter: brightness(60%);
+        transition: all 200ms;
+      }
+      img:hover {
+        filter: brightness(100%);
+        transform: scale(100%);
+        cursor: pointer;
+      }
+      .hover {
+        color: antiquewhite;
+        text-decoration: none;
+        transition: all 200ms;
+      }
+      .hover:hover {
+        color: red;
+        font-size: 2rem;
+      }
+      ul {
+        list-style-type: none;
+      }
+    </style>
   </head>
   <body>
     <h1>Olá mundo!</h1>
-    <h1>
+    <h2>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, cumque.
       Quisquam facilis voluptatem sit quibusdam quo? Non rem recusandae maxime
       temporibus consequatur perspiciatis doloribus error eligendi magni
       deleniti. Tempore, qui.
-    </h1>
+    </h2>
     <h2>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid in
       aspernatur perspiciatis non quos mollitia voluptates earum? Laborum quo
       asperiores tenetur aut minima. Rerum inventore exercitationem incidunt
       atque repudiandae minus!
     </h2>
+
     <ul>
       <li>
         <a
+          class="hover"
           target="_blank"
           href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
           >JavaScript</a
         >
       </li>
+      <a
+        class="hover"
+        target="_blank"
+        href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+        ><img src="./js.png" alt=""
+      /></a>
+
       <li>
         <a
+          class="hover"
           target="_blank"
           href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element"
           >HTML</a
         >
       </li>
+      <a
+        class="hover"
+        target="_blank"
+        href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element"
+        ><img src="./html-5 (2).png" />
+      </a>
+
       <li>
         <a
+          class="hover"
           target="_blank"
           href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
           >CSS</a
         >
       </li>
+      <a
+        class="hover"
+        target="_blank"
+        href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+      >
+        <img src="./css-3.png" />
+      </a>
+      <li>
+        <a
+          class="hover"
+          target="_blank"
+          href="https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started"
+          >React</a
+        >
+      </li>
+      <a
+        class="hover"
+        target="_blank"
+        href="https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started"
+      >
+        <img src="./react.png" />
+      </a>
     </ul>
-    <img
-      width="400"
-      height="400"
-      src="./imagem.jpg"
-      alt="tela de computador com codigo js"
-    />
+    <img src="./imagem.jpg" alt="tela de computador com codigo js" />
   </body>
 </html>
